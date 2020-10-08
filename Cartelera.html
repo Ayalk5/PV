@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cartelera|Cineteca</title>
+   <link rel="stylesheet" href="Cartelera.css">
+   <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+<body>
+
+  <!-- Logo -->
+  <div class="logo">
+    <img src="https://www.cinetecanacional.net/imagenes/encabezado/CulturaCineteca.png" alt="">
+  
+</div>
+
+ <!-- Menú -->
+  <nav class="barranav">
+     
+    <button class="nave-boton" onclick="accion()"> <a  href="#" target="_blank"> Inicio </a></button>
+     <!--  <a href="#" class="nave-enlace1 desaparece">Cartelera</a>  -->
+    <a href="#" class="nave-enlace2 desaparece">Cursos</a>
+    <a href="#" class="nave-enlace3 desaparece">Conferencias</a>
+    <a href="#" class="nave-enlace4 desaparece">Convocatorias</a>
+    <a href="#" class="nave-enlace5 desaparece">Protocolo  COVID</a>
+    <a href="#" class="nave-enlace6 desaparece">Iniciar sesión</a>
+    
+</nav>
+
+<script>
+    function accion(){
+console.log('funciona');
+var ancla = document.getElementsByClassName();
+for(var i = 0; i < ancla.length; i++){
+ancla[i].classList.toggle('desaparece');
+}
+    }
+</script>
+ <!-- Redessociales -->
+ <nav class="redesso">
+  <div class="wrapper">
+    <div class="icon facebook">
+  <span><i class="fab fa-facebook-f"></i></span>
+    </div>
+      <div class="icon twitter">
+  <span><i class="fab fa-twitter"></i></span>
+      </div>
+      <div class="icon instagram">
+  <span><i class="fab fa-instagram"></i></span>
+      </div>
+  <div class="icon github">
+  <span><i class="fab fa-github"></i></span>
+      </div>
+  <div class="icon youtube">
+  <span><i class="fab fa-youtube"></i></span>
+    </div>
+  </div>
+  </nav>
+
+  <!-- contenidocartelera -->
+  <TABLE style="padding: 50;">
+
+    <TR><TD><nav class="cartas1">
+        <div class="container mt-5">
+            <div class="card" style="width: 15rem;" >
+              <img  src="https://www.cinetecanacional.net/imagenes/img_peliculas/17018-A.jpg" width="240" height="150"  />
+              <!-- class="img-fluid card-img-top" -->
+              <div class="card-body">
+                <h5>Esto no es Berlín</h5>
+                <p>
+                 Carlos, un joven de 17 años, no encaja en ningún lugar: ni en su familia ni con los amigos de la escuela.  
+                </p>
+                <a href="#" class="btn btn-info">Ver</a>
+              </div>
+            </div>
+          </div> </TD> <TD><nav class="cartas1">
+            <div class="container mt-5">
+                <div class="card" style="width: 15rem;" >
+                  <img  src="https://www.cinetecanacional.net/imagenes/img_peliculas/17025-A.jpg" width="240" height="150"  />
+                  <!-- class="img-fluid card-img-top" -->
+                  <div class="card-body">
+                    <h5>Un día lluvioso en NY</h5>
+                    <p>
+                      Gatsby y Ashleigh son una pareja, sus planes, se interrumpen de manera súbita para pasar el finde juntos. 
+                    </p>
+                    <a href="#" class="btn btn-info">Ver </a>
+                  </div>
+                </div>
+              </div></TD> <TD><nav class="cartas1">
+                <div class="container mt-5">
+                    <div class="card" style="width: 15rem;" >
+                      <img  src="https://www.cinetecanacional.net/imagenes/img_peliculas/1861-A.jpg" width="240" height="150"  />
+                      <!-- class="img-fluid card-img-top" -->
+                      <div class="card-body">
+                        <h5>La dulce vida</h5>
+                        <p>
+                       Mientras retoma su carrera como escritor, el periodista Marcello se deja envolver por la "dulce vida" de la alta burguesía romana.
+                        </p>
+                        <a href="#" class="btn btn-info">Ver</a>
+                      </div>
+                    </div>
+                  </div></TD><TD><nav class="cartas1">
+                    <div class="container mt-5">
+                        <div class="card" style="width: 15rem;" >
+                          <img  src="https://www.cinetecanacional.net/imagenes/img_peliculas/17017-A.jpg" width="240" height="150"  />
+                          <!-- class="img-fluid card-img-top" -->
+                          <div class="card-body">
+                            <h5>El joven Ahmed</h5>
+                            <p>
+                          En la Bélgica actual, el destino de Ahmed, se condiciona entre cumplir  ideales de pureza  o ceder a las tentaciones de la vida.
+                            </p>
+                            <a href="#" class="btn btn-info">Ver</a>
+                          </div>
+                        </div>
+                      </div></TD>
+                      <TD><nav class="cartas1">
+                        <div class="container mt-5">
+                            <div class="card" style="width: 15rem;" >
+                              <img  src="https://www.cinetecanacional.net/imagenes/img_peliculas/17023-A.jpg" width="240" height="150"  />
+                              <!-- class="img-fluid card-img-top" -->
+                              <div class="card-body">
+                                <h5>Por la gracia de Dios</h5>
+                                <p>
+                             Alexandre vive con su esposa e hijos, descubre que el cura que abusaba de él cuando era scout aún trabaja con  jóvenes.
+                                </p>
+                                <a href="#" class="btn btn-info">Ver</a>
+                              </div>
+                            </div>
+                          </div></TD> 
+                    </TR>
+    </TABLE>
+
+
+<!-- Footer -->
+<footer>
+  <div class="main-content">
+    <div class="left box">
+      <h2>
+        <a  href="https://www.google.com/" target="_blank" style="color: white;"> CINETECA NACIONAL</a>       
+       </h2>
+<div class="content">
+
+</div>
+</div>
+<div class="center box">
+  <h2>
+      <a  href="https://www.google.com/" target="_blank" style="color: white;"> Sobre nosotros y contacto</a>       
+     </h2>
+<div class="content">
+       
+</div>
+</div>
+<div class="right box">
+      
+<center>
+      <span class="credit"></a> | </span>
+      <span style="color: white;" class="far fa-copyright" ></span> <span style="color: white;">2020 All rights reserved.</span>  
+    </center>
+</div>
+   
+</body>
+</html>
