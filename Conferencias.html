@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cartelera|Cineteca</title>
+   <link rel="stylesheet" href="Conferencias.css">
+   <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+   <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+<body>
+
+  <!-- Logo -->
+  <div class="logo">
+    <img src="https://www.cinetecanacional.net/imagenes/encabezado/CulturaCineteca.png" alt="">
+  
+</div>
+
+ <!-- Menú -->
+  <nav class="barranav">
+     
+    <button class="nave-boton" onclick="accion()"> <a  href="#" target="_blank"> Inicio </a></button>
+      <a href="#" class="nave-enlace1 desaparece">Cartelera</a> 
+    <a href="#" class="nave-enlace2 desaparece">Cursos</a>
+    <!-- <a href="#" class="nave-enlace3 desaparece">Conferencias</a> -->
+    <a href="#" class="nave-enlace4 desaparece">Convocatorias</a>
+    <a href="#" class="nave-enlace5 desaparece">Protocolo  COVID</a>
+    <a href="#" class="nave-enlace6 desaparece">Iniciar sesión</a>
+    
+</nav>
+
+<script>
+    function accion(){
+console.log('funciona');
+var ancla = document.getElementsByClassName();
+for(var i = 0; i < ancla.length; i++){
+ancla[i].classList.toggle('desaparece');
+}
+    }
+</script>
+ <!-- Redessociales -->
+ <nav class="redesso">
+  <div class="wrapper">
+    <div class="icon facebook">
+  <span><i class="fab fa-facebook-f"></i></span>
+    </div>
+      <div class="icon twitter">
+  <span><i class="fab fa-twitter"></i></span>
+      </div>
+      <div class="icon instagram">
+  <span><i class="fab fa-instagram"></i></span>
+      </div>
+  <div class="icon github">
+  <span><i class="fab fa-github"></i></span>
+      </div>
+  <div class="icon youtube">
+  <span><i class="fab fa-youtube"></i></span>
+    </div>
+  </div>
+  </nav>
+
+  <!-- /* Contenidoconferencias */ -->
+
+  <br><br> <section class="padre">
+   
+    <p class="columna"> 
+        <b>Buñuel y la ciudad</b> <br>    
+        En esta charla veremos la manera en la que el director español abordó la Ciudad de México en su cine, y 
+        cómo el espacio urbano fue un personaje más en filmes emblemáticos como Los olvidados.   
+        <button style="color: black;">
+          Información
+      </button> 
+    </p>
+    <p class="columna">
+      <b>Historia técnica del color</b> <br>
+      Tradicionalmente, pensamos el cine mudo con imágenes en blanco y negro. ¿Qué significa el color en las películas silentes?  
+      Al igual que en todo el cine, la realidad del color era distinta hace 100 años
+      <button style="color: black;">
+        Información
+    </button>
+    </p>
+        <p class="columna">
+          <b>Cine de Terror de culto </b> <br>
+          Desde hace unos cuantos años la categoría “de culto” se le otorga de manera indiscriminada a cualquier película. 
+          Pero ¿qué significa esta etiqueta hoy día? ¿Qué es lo que hace que una película sea considerada de culto? 
+          <button style="color: black;">
+            Información
+        </button>
+        </p>
+          <p class="columna">
+            <b>Nuevas reflexiones sobre cine mexicano</b> <br>
+            En esta edición, presentada por el Dr. Alberto Cabañas, se conversará sobre el cine de Alberto Gout desde una 
+            perspectiva de género. “Se debe rescatar a Gout [...] El cine es un documento legible desde diversos enfoques”
+            <button style="color: black;">
+              Información
+          </button>
+
+          </p>
+    <p class="columna">
+      <b>El verdadero enfant terrible</b> <br>
+      La charla esta a cargo de José Antonio Valdés Peña, director de la carrera de Cine y Televisión en el Centro de Estudios 
+      en Ciencias de la Comunicación (CECC) Pedregal.La conferencia es un pequeño y modesto homenaje a la obra de Vigo.
+      <button style="color: black;">
+        Información
+    </button>
+    </p>
+</section>
+
+
+
+<!-- Footer -->
+<footer>
+  <div class="main-content">
+    <div class="left box">
+      <h2>
+        <a  href="https://www.google.com/" target="_blank" style="color: white;"> CINETECA NACIONAL</a>       
+       </h2>
+<div class="content">
+
+</div>
+</div>
+<div class="center box">
+  <h2>
+      <a  href="https://www.google.com/" target="_blank" style="color: white;"> Sobre nosotros y contacto</a>       
+     </h2>
+<div class="content">
+       
+</div>
+</div>
+<div class="right box">
+      
+<center>
+      <span class="credit"></a> | </span>
+      <span style="color: white;" class="far fa-copyright" ></span> <span style="color: white;">2020 All rights reserved.</span>  
+    </center>
+</div>
+   
+</body>
+</html>
